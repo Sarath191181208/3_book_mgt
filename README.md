@@ -9,4 +9,7 @@ sudo docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e 
 
 # run the go file 
 go run ./cmd/main.go
+
+# running the test using k6
+k6 run k6.js
 ```
